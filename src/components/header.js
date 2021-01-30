@@ -11,7 +11,7 @@ export default function Header() {
 					<Navbar.Brand href="#home">Erik Gomez</Navbar.Brand>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav">
-						<Nav className="mr-auto">
+						<Nav>
 							<Nav.Link href="#about">About</Nav.Link>
 							<Nav.Link href="#portfolio">Portfolio</Nav.Link>
 							<Nav.Link href="#contact">Contact</Nav.Link>
