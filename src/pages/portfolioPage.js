@@ -7,11 +7,6 @@ export default function Portfolio() {
 		<>
 			<CardGroup>
 				<PortCard />
-				<PortCard />
-				<PortCard />
-				<PortCard />
-				<PortCard />
-				<PortCard />
 			</CardGroup>
 		</>
 	);

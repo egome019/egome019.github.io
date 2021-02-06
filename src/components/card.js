@@ -11,6 +11,41 @@ export default function PortCard() {
 					<Card.Text></Card.Text>
 				</Card.Body>
 			</Card>
+			<Card>
+				<Card.Img />
+				<Card.Body>
+					<Card.Title></Card.Title>
+					<Card.Text></Card.Text>
+				</Card.Body>
+			</Card>
+			<Card>
+				<Card.Img />
+				<Card.Body>
+					<Card.Title></Card.Title>
+					<Card.Text></Card.Text>
+				</Card.Body>
+			</Card>
+			<Card>
+				<Card.Img />
+				<Card.Body>
+					<Card.Title></Card.Title>
+					<Card.Text></Card.Text>
+				</Card.Body>
+			</Card>
+			<Card>
+				<Card.Img />
+				<Card.Body>
+					<Card.Title></Card.Title>
+					<Card.Text></Card.Text>
+				</Card.Body>
+			</Card>
+			<Card>
+				<Card.Img />
+				<Card.Body>
+					<Card.Title></Card.Title>
+					<Card.Text></Card.Text>
+				</Card.Body>
+			</Card>
 		</>
 	);
 }
