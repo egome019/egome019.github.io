@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 export default function ContactPage() {
 	return (
-		<Container>
+		<Container className="bg-dark mt-3" style={{ height: "500px" }}>
 			<Row></Row>
 		</Container>
 	);
