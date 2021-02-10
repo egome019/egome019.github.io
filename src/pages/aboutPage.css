@@ -1,0 +1,14 @@
+.content {
+	color: blanchedalmond;
+	height: 500px;
+	margin-top: 3em;
+	width: 100%;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+p {
+	font-size: 2rem;
+}
