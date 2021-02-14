@@ -1,14 +1,16 @@
 import React from "react";
-import CardGroup from "react-bootstrap/CardGroup";
 import PortCard from "../components/card";
-import Container from "react-bootstrap/Container";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function Portfolio() {
 	return (
 		<Container className="bg-dark mt-3" style={{ height: "500px" }}>
-			<CardGroup>
+			<Row
+				className="d-flex flex-row justify-content-around"
+				style={{ height: "50%" }}
+			>
 				<PortCard />
-			</CardGroup>
+			</Row>
 		</Container>
 	);
 }
