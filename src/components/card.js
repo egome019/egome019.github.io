@@ -7,9 +7,9 @@ import { Col } from "react-bootstrap";
 export default function PortCard() {
 	const renderCard = (card, index) => {
 		return (
-			<Col sm={8}>
+			<Col sm={4} className="card-column">
 				<Card className="bg-dark border border-white w-50" index={index}>
-					<Card.Img variant="top" src={card.vid} className="w-50 h-50%" />
+					<Card.Img variant="top" src={card.vid} className="card" />
 					<Card.Body>
 						<Card.Title>{card.title}</Card.Title>
 						<Card.Text>{card.text}</Card.Text>

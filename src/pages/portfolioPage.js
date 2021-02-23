@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function Portfolio() {
 	return (
-		<Container className="bg-dark mt-3" style={{ height: "500px" }}>
+		<Container className="bg-dark mt-3" style={{ overflow: "auto" }}>
 			<Row
 				className="d-flex flex-row justify-content-around"
 				style={{ height: "50%" }}
