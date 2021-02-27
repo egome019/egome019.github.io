@@ -1,16 +1,14 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import "./card.css";
-// import { projects } from "../components/projects";
-// import { Col } from "react-bootstrap";
 
 export default function PortCard(props) {
 	return (
-		<Card className="bg-dark border border-white" index={props.index}>
-			<Card.Img variant="top" src={props.vid} className="card" />
+		<Card className="bg-dark border card-border m-3" index={props.index}>
+			<Card.Img variant="top" src={props.vid} />
 			<Card.Body>
-				<Card.Title>{props.title}</Card.Title>
-				<Card.Text>{props.text}</Card.Text>
+				<Card.Title className="card">{props.title}</Card.Title>
+				<Card.Text className="card">{props.text}</Card.Text>
 			</Card.Body>
 		</Card>
 	);

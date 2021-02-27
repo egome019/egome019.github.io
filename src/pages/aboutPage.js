@@ -6,7 +6,7 @@ import "./aboutPage.css";
 
 export default function AboutPage() {
 	return (
-		<Container className="bg-dark content">
+		<Container className="bg-dark mt-3 content">
 			<Col>
 				<Jumbotron fluid className="bg-dark mt-3">
 					<h1>Hello World!</h1>
