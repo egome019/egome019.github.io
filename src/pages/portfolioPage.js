@@ -1,14 +1,39 @@
 import React from "react";
-import CardGroup from "react-bootstrap/CardGroup";
 import PortCard from "../components/card";
-import Container from "react-bootstrap/Container";
+import { Container, CardGroup } from "react-bootstrap";
+import { projects } from "../components/projects";
+import "./portPage.css";
 
 export default function Portfolio() {
+	const postRowOne = [...projects].slice(0, 3);
+	const postRowTwo = [...projects].slice(3, 6);
 	return (
-		<Container className="bg-dark mt-3" style={{ height: "500px" }}>
-			<CardGroup>
-				<PortCard />
-			</CardGroup>
-		</Container>
+		<div id="portfolio">
+			<Container className="bg-dark mt-3 portContainer">
+				<div className="header">
+					<h1>Portfolio</h1>
+				</div>
+				<CardGroup className="m-3">
+					{postRowOne.map((data, index) => (
+						<PortCard
+							key={index}
+							vid={data.vid}
+							title={data.title}
+							text={data.text}
+						/>
+					))}
+				</CardGroup>
+				<CardGroup className="m-3">
+					{postRowTwo.map((data, index) => (
+						<PortCard
+							key={index}
+							vid={data.vid}
+							title={data.title}
+							text={data.text}
+						/>
+					))}
+				</CardGroup>
+			</Container>
+		</div>
 	);
 }
