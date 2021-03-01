@@ -8,30 +8,32 @@ export default function Portfolio() {
 	const postRowOne = [...projects].slice(0, 3);
 	const postRowTwo = [...projects].slice(3, 6);
 	return (
-		<Container className="bg-dark mt-3 portContainer">
-			<div className="header">
-				<h1>Portfolio</h1>
-			</div>
-			<CardGroup className="m-3">
-				{postRowOne.map((data, index) => (
-					<PortCard
-						key={index}
-						vid={data.vid}
-						title={data.title}
-						text={data.text}
-					/>
-				))}
-			</CardGroup>
-			<CardGroup className="m-3">
-				{postRowTwo.map((data, index) => (
-					<PortCard
-						key={index}
-						vid={data.vid}
-						title={data.title}
-						text={data.text}
-					/>
-				))}
-			</CardGroup>
-		</Container>
+		<div id="portfolio">
+			<Container className="bg-dark mt-3 portContainer">
+				<div className="header">
+					<h1>Portfolio</h1>
+				</div>
+				<CardGroup className="m-3">
+					{postRowOne.map((data, index) => (
+						<PortCard
+							key={index}
+							vid={data.vid}
+							title={data.title}
+							text={data.text}
+						/>
+					))}
+				</CardGroup>
+				<CardGroup className="m-3">
+					{postRowTwo.map((data, index) => (
+						<PortCard
+							key={index}
+							vid={data.vid}
+							title={data.title}
+							text={data.text}
+						/>
+					))}
+				</CardGroup>
+			</Container>
+		</div>
 	);
 }
