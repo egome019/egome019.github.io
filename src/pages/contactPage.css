@@ -1,3 +1,6 @@
 .contactPage {
 	overflow: auto;
+	color: blanchedalmond;
+	min-height: 100%;
+	height: 60vh;
 }
