@@ -3,14 +3,14 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { IconContext } from "react-icons";
-import { FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaEnvelope, FaLinkedinIn } from "react-icons/fa";
 import "./contactPage.css";
 
 export default function ContactPage() {
 	return (
 		<div id="contact">
 			<IconContext.Provider
-				value={{ style: { fontSize: "100px", color: "rgb(255, 235, 205)" } }}
+				value={{ style: { fontSize: "75px", color: "rgb(255, 235, 205)" } }}
 			>
 				<Container className="bg-dark mt-3 contactPage">
 					<Row>
@@ -28,20 +28,20 @@ export default function ContactPage() {
 						</Col>
 						<Col sm>
 							<a
-								href="https://twitter.com/egomez_8_"
+								href="https://github.com/egome019"
 								target="_blank"
 								rel="noreferrer"
 							>
-								<FaTwitter />
+								<FaGithub />
 							</a>
 						</Col>
 						<Col sm>
 							<a
-								href="https://www.instagram.com/gomeze019/"
+								href="mailto:egomezfax19@gmail.com"
 								target="_blank"
 								rel="noreferrer"
 							>
-								<FaInstagram />
+								<FaEnvelope />
 							</a>
 						</Col>
 					</Row>
