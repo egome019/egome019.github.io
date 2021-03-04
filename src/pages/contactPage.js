@@ -14,7 +14,7 @@ export default function ContactPage() {
 			>
 				<Container className="bg-dark mt-3 contactPage">
 					<Row>
-						<h1>Contact</h1>
+						<h1 className="contact-header">Contact</h1>
 					</Row>
 					<Row>
 						<Col sm>
@@ -23,7 +23,7 @@ export default function ContactPage() {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<FaLinkedinIn />
+								<FaLinkedinIn className="icons-query" />
 							</a>
 						</Col>
 						<Col sm>
@@ -32,7 +32,7 @@ export default function ContactPage() {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<FaGithub />
+								<FaGithub className="icons-query" />
 							</a>
 						</Col>
 						<Col sm>
@@ -41,7 +41,7 @@ export default function ContactPage() {
 								target="_blank"
 								rel="noreferrer"
 							>
-								<FaEnvelope />
+								<FaEnvelope className="icons-query" />
 							</a>
 						</Col>
 					</Row>
