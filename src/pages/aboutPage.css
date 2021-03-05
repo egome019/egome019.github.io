@@ -5,16 +5,21 @@
 	height: 100vh;
 }
 
-.center {
-	margin-top: 150px;
-}
-
 h1 {
 	font-size: 3rem;
-	margin: 100px;
+	margin: 80px;
 }
 
 p {
 	font-size: 2rem;
 	line-height: 2;
+}
+
+@media (max-width: 768px) {
+	.content {
+		height: 80vh;
+	}
+	p {
+		font-size: 1.5rem;
+	}
 }
