@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd474817.chunk.css",
-    "main.js": "/static/js/main.47719fa9.chunk.js",
-    "main.js.map": "/static/js/main.47719fa9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.85805f17.js",
-    "runtime-main.js.map": "/static/js/runtime-main.85805f17.js.map",
+    "main.css": "/static/css/main.128c69cf.chunk.css",
+    "main.js": "/static/js/main.8b60dd1e.chunk.js",
+    "main.js.map": "/static/js/main.8b60dd1e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.89499757.js",
+    "runtime-main.js.map": "/static/js/runtime-main.89499757.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
-    "static/js/2.d563e0e8.chunk.js": "/static/js/2.d563e0e8.chunk.js",
-    "static/js/2.d563e0e8.chunk.js.map": "/static/js/2.d563e0e8.chunk.js.map",
-    "static/js/3.aa4dd617.chunk.js": "/static/js/3.aa4dd617.chunk.js",
-    "static/js/3.aa4dd617.chunk.js.map": "/static/js/3.aa4dd617.chunk.js.map",
+    "static/js/2.1232feba.chunk.js": "/static/js/2.1232feba.chunk.js",
+    "static/js/2.1232feba.chunk.js.map": "/static/js/2.1232feba.chunk.js.map",
+    "static/js/3.b69ca634.chunk.js": "/static/js/3.b69ca634.chunk.js",
+    "static/js/3.b69ca634.chunk.js.map": "/static/js/3.b69ca634.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.bd474817.chunk.css.map": "/static/css/main.bd474817.chunk.css.map",
-    "static/js/2.d563e0e8.chunk.js.LICENSE.txt": "/static/js/2.d563e0e8.chunk.js.LICENSE.txt",
+    "static/css/main.128c69cf.chunk.css.map": "/static/css/main.128c69cf.chunk.css.map",
+    "static/js/2.1232feba.chunk.js.LICENSE.txt": "/static/js/2.1232feba.chunk.js.LICENSE.txt",
     "static/media/READMEvid.634e1148.gif": "/static/media/READMEvid.634e1148.gif",
     "static/media/budgetTracker.bd933ba3.gif": "/static/media/budgetTracker.bd933ba3.gif",
     "static/media/daburger.f2cff880.gif": "/static/media/daburger.f2cff880.gif",
@@ -22,10 +22,10 @@
     "static/media/workoutTracker.5bb4de4c.gif": "/static/media/workoutTracker.5bb4de4c.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.85805f17.js",
+    "static/js/runtime-main.89499757.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.d563e0e8.chunk.js",
-    "static/css/main.bd474817.chunk.css",
-    "static/js/main.47719fa9.chunk.js"
+    "static/js/2.1232feba.chunk.js",
+    "static/css/main.128c69cf.chunk.css",
+    "static/js/main.8b60dd1e.chunk.js"
   ]
 }
