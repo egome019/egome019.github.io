@@ -1,0 +1,9 @@
+.skillsContainer {
+	overflow: auto;
+	height: 80vh;
+}
+
+.skillsHeader {
+	color: blanchedalmond !important;
+	margin-top: 2rem;
+}
