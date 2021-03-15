@@ -24,6 +24,9 @@ export default function Header() {
 							<Nav.Link className="headerStyle" href="#about">
 								About
 							</Nav.Link>
+							<Nav.Link className="headerStyle" href="#skills">
+								Skills
+							</Nav.Link>
 							<Nav.Link className="headerStyle" href="#portfolio">
 								Portfolio
 							</Nav.Link>

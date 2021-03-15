@@ -17,7 +17,7 @@ export default function SkillsPage() {
 	return (
 		<div id="skills">
 			<IconContext.Provider
-				value={{ style: { fontSize: "100px", color: "rgb(255, 235, 205)" } }}
+				value={{ style: { fontSize: "75px", color: "rgb(255, 235, 205)" } }}
 			>
 				<Container className="bg-dark mt-3 skillsContainer">
 					<div className="skillsHeader">
@@ -25,64 +25,62 @@ export default function SkillsPage() {
 					</div>
 					<Row>
 						<Col sm>
-							<Row>
-								<Card>
-									<Card.Body>
-										<Card.Title>Languages</Card.Title>
-										<Card.Text>
-											<FaHtml5 />
-											<FaCss3Alt />
-											<FaJsSquare />
-											<FaReact />
-										</Card.Text>
-									</Card.Body>
-								</Card>
-							</Row>
+							<Card className="m-3">
+								<Card.Body>
+									<Card.Title>Languages</Card.Title>
+									<Card.Text className="logo-content">
+										<FaHtml5 className="iconSize" /> HTML 5
+									</Card.Text>
+									<Card.Text className="logo-content">
+										<FaCss3Alt className="iconSize" /> CSS 3
+									</Card.Text>
+									<Card.Text className="logo-content">
+										<FaJsSquare className="iconSize" /> JavaScript
+									</Card.Text>
+									<Card.Text className="logo-content">
+										<FaReact className="iconSize" /> React JS
+									</Card.Text>
+								</Card.Body>
+							</Card>
 						</Col>
 						<Col sm>
-							<Row>
-								<Card>
-									<Card.Body>
-										<Card.Title>Back End</Card.Title>
-										<Card.Text>
-											<FaNode />
-										</Card.Text>
-									</Card.Body>
-								</Card>
-							</Row>
-							<Row>
-								<Card>
-									<Card.Body>
-										<Card.Title>Database</Card.Title>
-										<Card.Text>
-											<DiMongodb />
-										</Card.Text>
-									</Card.Body>
-								</Card>
-							</Row>
+							<Card className="m-3">
+								<Card.Body>
+									<Card.Title>Back End</Card.Title>
+									<Card.Text className="logo-content">
+										<FaNode className="iconSize" /> NodeJS
+									</Card.Text>
+								</Card.Body>
+							</Card>
+							<Card className="m-3">
+								<Card.Body>
+									<Card.Title>Database</Card.Title>
+									<Card.Text className="logo-content">
+										<DiMongodb className="iconSize" /> Mongo DB
+									</Card.Text>
+								</Card.Body>
+							</Card>
 						</Col>
 						<Col sm>
-							<Row>
-								<Card>
-									<Card.Body>
-										<Card.Title>Hosting Platforms</Card.Title>
-										<Card.Text>
-											<DiHeroku />
-											<FaGithub />
-										</Card.Text>
-									</Card.Body>
-								</Card>
-							</Row>
-							<Row>
-								<Card>
-									<Card.Body>
-										<Card.Title>Version Control</Card.Title>
-										<Card.Text>
-											<FaGitAlt />
-										</Card.Text>
-									</Card.Body>
-								</Card>
-							</Row>
+							<Card className="m-3">
+								<Card.Body>
+									<Card.Title>Hosting Platforms</Card.Title>
+									<Card.Text className="logo-content">
+										<DiHeroku className="iconSize" /> Heroku
+									</Card.Text>
+									<Card.Text className="logo-content">
+										<FaGithub className="iconSize" /> Github
+									</Card.Text>
+								</Card.Body>
+							</Card>
+							<Card className="m-3">
+								<Card.Body>
+									<Card.Title>Version Control</Card.Title>
+									<Card.Text className="logo-content">
+										<FaGitAlt className="iconSize" /> Git
+									</Card.Text>
+								</Card.Body>
+							</Card>
 						</Col>
 					</Row>
 				</Container>

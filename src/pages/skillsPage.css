@@ -1,9 +1,31 @@
 .skillsContainer {
 	overflow: auto;
-	height: 80vh;
+	height: 100vh;
+	table-layout: fixed;
 }
 
 .skillsHeader {
 	color: blanchedalmond !important;
-	margin-top: 2rem;
+	margin-top: 1rem;
+}
+
+@media (max-width: 1024px) {
+	.logo-content {
+		font-size: 1rem !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.skillsContainer {
+		height: 90vh;
+	}
+	.iconSize {
+		font-size: 50px !important;
+	}
+}
+
+@media (max-width: 576px) {
+	.skillsContainer {
+		height: auto;
+	}
 }

@@ -5,6 +5,7 @@ import AboutPage from "./pages/aboutPage";
 import PortfolioPage from "./pages/portfolioPage";
 import ContactPage from "./pages/contactPage";
 import SkillsPage from "./pages/skills";
+import Footer from "./components/footer";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<SkillsPage />
 			<PortfolioPage />
 			<ContactPage />
+			<Footer />
 		</div>
 	);
 }
