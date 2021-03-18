@@ -1,17 +1,17 @@
 .contactPage {
 	overflow: auto;
-	color: blanchedalmond;
+	color: blanchedalmond !important;
 	min-height: 100%;
 	height: 60vh;
+}
+
+.row {
+	justify-content: center !important;
 }
 
 @media (max-width: 576px) {
 	.contactPage {
 		height: 50vh;
-	}
-	.contact-header {
-		font-size: 2rem;
-		margin: 50px;
 	}
 	.icons-query {
 		font-size: 35px !important;
