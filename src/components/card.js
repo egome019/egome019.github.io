@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 import "./card.css";
 
 export default function PortCard(props) {
@@ -10,6 +11,10 @@ export default function PortCard(props) {
 				<Card.Title className="card">{props.title}</Card.Title>
 				<Card.Text className="card">{props.text}</Card.Text>
 			</Card.Body>
+			<Card.Footer>
+				<Button variant="outline-*">Live</Button>
+				<Button variant="outline-*">Repo</Button>
+			</Card.Footer>
 		</Card>
 	);
 }

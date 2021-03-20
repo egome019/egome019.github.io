@@ -10,7 +10,7 @@ import {
 	FaGitAlt,
 	FaReact,
 } from "react-icons/fa";
-import { DiMongodb, DiHeroku } from "react-icons/di";
+import { DiMongodb, DiHeroku, DiMysql } from "react-icons/di";
 import "./skillsPage.css";
 
 export default function SkillsPage() {
@@ -57,6 +57,9 @@ export default function SkillsPage() {
 									<Card.Title>Database</Card.Title>
 									<Card.Text className="logo-content">
 										<DiMongodb className="iconSize" /> Mongo DB
+									</Card.Text>
+									<Card.Text className="logo-content">
+										<DiMysql className="iconSize" /> MySQL
 									</Card.Text>
 								</Card.Body>
 							</Card>
