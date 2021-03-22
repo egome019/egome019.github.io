@@ -20,6 +20,9 @@ export default function Portfolio() {
 							vid={data.vid}
 							title={data.title}
 							text={data.text}
+							live={data.live}
+							repo={data.repo}
+							task={data.task}
 						/>
 					))}
 				</CardGroup>
@@ -30,6 +33,9 @@ export default function Portfolio() {
 							vid={data.vid}
 							title={data.title}
 							text={data.text}
+							live={data.live}
+							repo={data.repo}
+							task={data.task}
 						/>
 					))}
 				</CardGroup>

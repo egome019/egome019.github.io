@@ -13,7 +13,8 @@ export const projects = [
 			"This a command-line application that dynamically creates a README.md file based off of user's responses to multiple questions.",
 		task:
 			"The task was to use nodeJS's inquirer package to create a set of questions that would generate a README file.",
-		live: " ",
+		live:
+			"https://drive.google.com/file/d/178ud3lu5zfypH8ch97DcOCgWTki_OBzI/view",
 		repo: "https://github.com/egome019/README-Generator",
 	},
 	{
@@ -23,7 +24,8 @@ export const projects = [
 			"A command-line application that allows you to update your employees roles directly to your database. You can also view your database tables.",
 		task:
 			"The task was to create the database with MySQL, and use nodeJS's inquirer package to build the questioning logic of the application.",
-		live: " ",
+		live:
+			"https://drive.google.com/file/d/16NUdhM6Viv0FCOvHYyBYp2u0xBxQB7lx/view",
 		repo: "https://github.com/egome019/employeeTracker_egomez",
 	},
 	{
@@ -50,7 +52,9 @@ export const projects = [
 		title: "Workout Tracker",
 		text:
 			"The application is a workout tracker that allows you to view, create, and track daily workouts.",
-		live: "",
+		task:
+			"The task was to create the routes and the database using MongoDB connecting the frontend to the backend.",
+		live: "https://secure-hamlet-15255.herokuapp.com/",
 		repo: "https://github.com/egome019/workoutTracker",
 	},
 	{
