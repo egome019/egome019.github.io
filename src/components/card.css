@@ -10,6 +10,10 @@
 	box-shadow: 10px 10px 1rem blanchedalmond;
 }
 
+.btn {
+	color: blanchedalmond !important;
+}
+
 @media (max-width: 768px) {
 	.card-border {
 		box-shadow: 5px 5px 0.5rem blanchedalmond;
