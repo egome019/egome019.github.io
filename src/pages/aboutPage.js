@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 import "./aboutPage.css";
 
 export default function AboutPage() {
@@ -17,6 +18,15 @@ export default function AboutPage() {
 						University of California, Los Angeles. If you have any inquires feel
 						free to message me at any of my socials.
 					</p>
+					<br />
+					<Button
+						href="https://docs.google.com/document/d/1ztf9-M20HF-9xEMjs0bmzlAFcJc5sCZ6_JJAzPtPKf4/edit?usp=sharing"
+						target="_blank"
+						variant="outline-dark"
+						className="m-3 customBtn"
+					>
+						Resume
+					</Button>
 				</Col>
 			</Container>
 		</div>
